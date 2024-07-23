@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mining Bot</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="container">
+        <div id="user-form">
+            <h2>Enter your details</h2>
+            <input type="text" id="username" placeholder="Username" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <button onclick="showChat()">Start Chat</button>
+        </div>
+        <div id="chat-container">
+            <img src="https://static.liveperson.com/static-assets/2023/12/21164840/AI-Chatbot-Guide-Hero-Image_2x.png" alt="Welcome Image" id="welcome-image">
+            <h2 id="welcome-message"></h2>
+            <div id="botpress-webchat"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
